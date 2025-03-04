@@ -1,0 +1,123 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 134, 191);
+}
+.header{
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    justify-items: center;
+    border: 1px solid black;
+   
+    background-attachment: fixed;
+    background-color: white;
+   margin: auto;
+    
+    
+}
+.header-name{
+    margin-top: 10px;
+    height: 100px;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 140, 249);
+   
+   
+}
+.header-logo{
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+}
+.header-logo img{
+    width: 100px;
+    height: 103px;
+    background-position: center;
+    overflow: hidden;
+   
+}
+.header-content h1{
+    text-transform: uppercase;
+   text-align: center;
+}
+.header-content p{
+   color: rgb(255, 255, 255);
+   text-transform: capitalize;
+   font-size:20px;
+}
+.header-disney img{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.container-1{
+    margin-top: 50px;
+   width:80%;
+   padding: 30px;
+   gap: 20px;
+   display: flex;
+   gap: 100px;
+ 
+}
+.repenzel-birth{
+    width: 70%;
+   
+}
+.repenzel-birth img{
+   float: left;
+    width:300px;
+    border-radius: 20px;
+ 
+    margin-right: 10px;
+    border: 1px solid pink;
+
+}
+
+.content{
+    text-align: left;
+   letter-spacing: 1px;
+   width: 300px;
+
+
+}
+.house img{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+
+/* container-2 */
+.container-2{
+    height: 60%;
+    width:80%;
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    gap: 100px;
+   margin-left: 500px;
+   margin-top: 20px;
+}
+.horse{
+    height: 100px;
+    width: 100px;
+}
+.golden-flower{
+    width: 70%;
+}
+.golden-flower img{
+    float: right;
+    width:400px;
+    border-radius: 20px;
+ 
+    margin-left: 10px;
+    border: 1px solid pink;
+}
